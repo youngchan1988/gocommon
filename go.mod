@@ -1,1 +1,1 @@
-module "gocommon"
+module "g.newcoretech.com/mobile/gocommon"
