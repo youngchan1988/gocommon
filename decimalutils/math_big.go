@@ -1,9 +1,10 @@
 package decimalutils
 
 import (
-	"g.newcoretech.com/mobile/gocommon/decimalutils/decimal"
-	"g.newcoretech.com/mobile/gocommon/decimalutils/decimal/math"
 	"strings"
+
+	"github.com/youngchan1988/gocommon/decimalutils/decimal"
+	"github.com/youngchan1988/gocommon/decimalutils/decimal/math"
 )
 
 // 天花板数，数值变大

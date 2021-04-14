@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"g.newcoretech.com/mobile/gocommon/decimalutils/decimal"
+	"github.com/youngchan1988/gocommon/decimalutils/decimal"
 )
 
 func TestIssue70(t *testing.T) {

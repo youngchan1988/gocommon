@@ -3,7 +3,7 @@ package math_test
 import (
 	"testing"
 
-	"g.newcoretech.com/mobile/gocommon/decimalutils/decimal"
+	"github.com/youngchan1988/gocommon/decimalutils/decimal"
 )
 
 var gB *decimal.Big

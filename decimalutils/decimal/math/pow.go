@@ -1,8 +1,8 @@
 package math
 
 import (
-	"g.newcoretech.com/mobile/gocommon/decimalutils/decimal"
-	"g.newcoretech.com/mobile/gocommon/decimalutils/decimal/misc"
+	"github.com/youngchan1988/gocommon/decimalutils/decimal"
+	"github.com/youngchan1988/gocommon/decimalutils/decimal/misc"
 )
 
 // TODO(eric): Pow(z, x, y, m *decimal.Big) *decimal.Big

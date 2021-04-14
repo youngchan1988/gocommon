@@ -1,6 +1,6 @@
 package math
 
-import "g.newcoretech.com/mobile/gocommon/decimalutils/decimal"
+import "github.com/youngchan1988/gocommon/decimalutils/decimal"
 
 // Hypot sets z to Sqrt(p*p + q*q) and returns z.
 func Hypot(z, p, q *decimal.Big) *decimal.Big {

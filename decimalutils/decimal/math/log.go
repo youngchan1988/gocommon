@@ -1,9 +1,9 @@
 package math
 
 import (
-	"g.newcoretech.com/mobile/gocommon/decimalutils/decimal"
-	"g.newcoretech.com/mobile/gocommon/decimalutils/decimal/internal/arith"
-	"g.newcoretech.com/mobile/gocommon/decimalutils/decimal/internal/c"
+	"github.com/youngchan1988/gocommon/decimalutils/decimal"
+	"github.com/youngchan1988/gocommon/decimalutils/decimal/internal/arith"
+	"github.com/youngchan1988/gocommon/decimalutils/decimal/internal/c"
 )
 
 // Log10 sets z to the common logarithm of x and returns z.

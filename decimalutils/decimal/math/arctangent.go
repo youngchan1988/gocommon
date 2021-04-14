@@ -3,8 +3,8 @@ package math
 import (
 	stdMath "math"
 
-	"g.newcoretech.com/mobile/gocommon/decimalutils/decimal"
-	"g.newcoretech.com/mobile/gocommon/decimalutils/decimal/misc"
+	"github.com/youngchan1988/gocommon/decimalutils/decimal"
+	"github.com/youngchan1988/gocommon/decimalutils/decimal/misc"
 )
 
 var sqrt3_3 = decimal.New(577350, 6) // sqrt(3) / 3

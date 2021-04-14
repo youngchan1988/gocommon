@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"math/bits"
 
-	"g.newcoretech.com/mobile/gocommon/decimalutils/decimal"
-	"g.newcoretech.com/mobile/gocommon/decimalutils/decimal/misc"
+	"github.com/youngchan1988/gocommon/decimalutils/decimal"
+	"github.com/youngchan1988/gocommon/decimalutils/decimal/misc"
 )
 
 func newDecimal(s string) *decimal.Big {

@@ -1,4 +1,4 @@
-module g.newcoretech.com/mobile/gocommon
+module github.com/youngchan1988/gocommon
 
 go 1.16
 

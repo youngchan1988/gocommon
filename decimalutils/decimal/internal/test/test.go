@@ -11,10 +11,10 @@ import (
 	"strconv"
 	"testing"
 
-	"g.newcoretech.com/mobile/gocommon/decimalutils/decimal"
-	"g.newcoretech.com/mobile/gocommon/decimalutils/decimal/math"
-	"g.newcoretech.com/mobile/gocommon/decimalutils/decimal/misc"
-	"g.newcoretech.com/mobile/gocommon/decimalutils/decimal/suite"
+	"github.com/youngchan1988/gocommon/decimalutils/decimal"
+	"github.com/youngchan1988/gocommon/decimalutils/decimal/math"
+	"github.com/youngchan1988/gocommon/decimalutils/decimal/misc"
+	"github.com/youngchan1988/gocommon/decimalutils/decimal/suite"
 )
 
 // Helper returns testing.T.Helper, if it exists.

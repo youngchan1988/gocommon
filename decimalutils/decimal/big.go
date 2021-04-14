@@ -14,8 +14,8 @@ import (
 	"strconv"
 	"strings"
 
-	"g.newcoretech.com/mobile/gocommon/decimalutils/decimal/internal/arith"
-	"g.newcoretech.com/mobile/gocommon/decimalutils/decimal/internal/c"
+	"github.com/youngchan1988/gocommon/decimalutils/decimal/internal/arith"
+	"github.com/youngchan1988/gocommon/decimalutils/decimal/internal/c"
 )
 
 // Big is a floating-point, arbitrary-precision decimal.

@@ -1,9 +1,9 @@
 package math
 
 import (
-	"g.newcoretech.com/mobile/gocommon/decimalutils/decimal"
-	"g.newcoretech.com/mobile/gocommon/decimalutils/decimal/internal/arith"
-	"g.newcoretech.com/mobile/gocommon/decimalutils/decimal/misc"
+	"github.com/youngchan1988/gocommon/decimalutils/decimal"
+	"github.com/youngchan1988/gocommon/decimalutils/decimal/internal/arith"
+	"github.com/youngchan1988/gocommon/decimalutils/decimal/misc"
 )
 
 func prepTan(z, x *decimal.Big, ctx decimal.Context) (*decimal.Big, bool) {

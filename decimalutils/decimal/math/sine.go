@@ -1,6 +1,6 @@
 package math
 
-import "g.newcoretech.com/mobile/gocommon/decimalutils/decimal"
+import "github.com/youngchan1988/gocommon/decimalutils/decimal"
 
 // Sin returns the sine, in radians, of x.
 //

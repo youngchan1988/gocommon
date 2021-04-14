@@ -1,8 +1,8 @@
 package math
 
 import (
-	"g.newcoretech.com/mobile/gocommon/decimalutils/decimal"
-	"g.newcoretech.com/mobile/gocommon/decimalutils/decimal/misc"
+	"github.com/youngchan1988/gocommon/decimalutils/decimal"
+	"github.com/youngchan1988/gocommon/decimalutils/decimal/misc"
 )
 
 // Floor sets z to the greatest integer value less than or equal to x and returns

@@ -2,8 +2,9 @@ package safemap
 
 import (
 	"encoding/json"
-	"g.newcoretech.com/mobile/gocommon/cast"
-	"g.newcoretech.com/mobile/gocommon/syncutils"
+
+	"github.com/youngchan1988/gocommon/cast"
+	"github.com/youngchan1988/gocommon/syncutils"
 )
 
 type StrIntMap struct {

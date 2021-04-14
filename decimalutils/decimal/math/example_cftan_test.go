@@ -3,8 +3,8 @@ package math_test
 import (
 	"fmt"
 
-	"g.newcoretech.com/mobile/gocommon/decimalutils/decimal"
-	"g.newcoretech.com/mobile/gocommon/decimalutils/decimal/math"
+	"github.com/youngchan1988/gocommon/decimalutils/decimal"
+	"github.com/youngchan1988/gocommon/decimalutils/decimal/math"
 )
 
 type tanGenerator struct {

@@ -3,7 +3,7 @@ package math
 import (
 	"fmt"
 
-	"g.newcoretech.com/mobile/gocommon/decimalutils/decimal"
+	"github.com/youngchan1988/gocommon/decimalutils/decimal"
 )
 
 // Term is a specific term in a continued fraction. A and B correspond with the

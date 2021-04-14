@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"testing"
 
-	"g.newcoretech.com/mobile/gocommon/decimalutils/decimal"
+	"github.com/youngchan1988/gocommon/decimalutils/decimal"
 )
 
 func TestAcos(t *testing.T) {

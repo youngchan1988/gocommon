@@ -4,9 +4,9 @@ import (
 	stdMath "math"
 	"math/bits"
 
-	"g.newcoretech.com/mobile/gocommon/decimalutils/decimal"
-	"g.newcoretech.com/mobile/gocommon/decimalutils/decimal/internal/arith"
-	"g.newcoretech.com/mobile/gocommon/decimalutils/decimal/misc"
+	"github.com/youngchan1988/gocommon/decimalutils/decimal"
+	"github.com/youngchan1988/gocommon/decimalutils/decimal/internal/arith"
+	"github.com/youngchan1988/gocommon/decimalutils/decimal/misc"
 )
 
 const maxInt = 1<<(bits.UintSize-1) - 1 // Also: uint64(int(^uint(0) << 1))

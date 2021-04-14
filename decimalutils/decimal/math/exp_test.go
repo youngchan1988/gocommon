@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"g.newcoretech.com/mobile/gocommon/decimalutils/decimal"
+	"github.com/youngchan1988/gocommon/decimalutils/decimal"
 )
 
 var exp_X, _ = new(decimal.Big).SetString("123.456")

@@ -2,9 +2,10 @@ package safemap
 
 import (
 	"encoding/json"
-	"g.newcoretech.com/mobile/gocommon/cast"
-	"g.newcoretech.com/mobile/gocommon/sliceutils"
-	"g.newcoretech.com/mobile/gocommon/syncutils"
+
+	"github.com/youngchan1988/gocommon/cast"
+	"github.com/youngchan1988/gocommon/sliceutils"
+	"github.com/youngchan1988/gocommon/syncutils"
 
 	"reflect"
 	"sort"

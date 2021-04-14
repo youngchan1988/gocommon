@@ -3,9 +3,9 @@ package misc_test
 import (
 	"testing"
 
-	"g.newcoretech.com/mobile/gocommon/decimalutils/decimal"
-	"g.newcoretech.com/mobile/gocommon/decimalutils/decimal/internal/test"
-	"g.newcoretech.com/mobile/gocommon/decimalutils/decimal/misc"
+	"github.com/youngchan1988/gocommon/decimalutils/decimal"
+	"github.com/youngchan1988/gocommon/decimalutils/decimal/internal/test"
+	"github.com/youngchan1988/gocommon/decimalutils/decimal/misc"
 )
 
 func TestBig_NextMinus(t *testing.T) { test.NextMinus.Test(t) }
