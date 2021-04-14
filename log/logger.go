@@ -8,7 +8,6 @@
 package log
 
 import (
-	"flag"
 	"fmt"
 	"io"
 	"os"
@@ -23,7 +22,6 @@ const tag = "Logger"
 
 var logger zerolog.Logger
 
-func 
 func Init(debug bool, logPath string) {
 	//初始化log 本地文件存储设置
 	var logf *rotatelogs.RotateLogs
@@ -59,7 +57,7 @@ func Init(debug bool, logPath string) {
 		FormatLevel: func(i interface{}) string {
 			return strings.ToUpper(fmt.Sprintf("| %-6s|", i))
 		},
-		FormatMessage: func(i interface{}) string{
+		FormatMessage: func(i interface{}) string {
 			return fmt.Sprintf("message=\"%s\"", i)
 		},
 		FormatCaller: func(i interface{}) string {
