@@ -23,15 +23,12 @@ const tag = "Logger"
 
 var logger zerolog.Logger
 
-func init() {
-	debug := flag.Bool("debug", false, "sets log level to debug")
-	logPath := flag.String("logPath", "/var/log", "set log file storage path")
-	flag.Parse()
-
+func 
+func Init(debug bool, logPath string) {
 	//初始化log 本地文件存储设置
 	var logf *rotatelogs.RotateLogs
 	var err error
-	logFile := *logPath + "/apptoy-go"
+	logFile := logPath + "/apptoy-go"
 	logf, err = rotatelogs.New(
 		logFile+".%Y%m%d%H%M.log",
 		rotatelogs.WithClock(rotatelogs.Local),
@@ -44,7 +41,7 @@ func init() {
 	}
 
 	//初始化zerolog
-	if *debug {
+	if debug {
 		zerolog.SetGlobalLevel(zerolog.DebugLevel)
 	} else {
 		zerolog.SetGlobalLevel(zerolog.InfoLevel)
