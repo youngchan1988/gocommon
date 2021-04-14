@@ -47,3 +47,32 @@ go env -w GOPRIVATE="g.newcoretech.com"
 在GOLand 中配置`GOPRIVATE` 变量：
 
 ![企业微信20210413-102928](https://tva1.sinaimg.cn/large/008eGmZEgy1gphwt4avtuj30ra0k8tam.jpg)
+=======
+# GoCommon
+
+#### 介绍
+Go 项目常用工具代码
+
+#### 软件架构
+软件架构说明
+
+
+#### 安装教程
+
+1.  xxxx
+2.  xxxx
+3.  xxxx
+
+#### 使用说明
+
+1.  xxxx
+2.  xxxx
+3.  xxxx
+
+#### 参与贡献
+
+1.  Fork 本仓库
+2.  新建 Feat_xxx 分支
+3.  提交代码
+4.  新建 Pull Request
+
