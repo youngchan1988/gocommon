@@ -6,7 +6,6 @@
 | go get g.newcoretech.com/mobile/gocommon/cast          | cast          | interface 对其他数据类型的转换 |
 | go get g.newcoretech.com/mobile/gocommon/decimalutils  | decimalutils  | 浮点数操作                     |
 | go get g.newcoretech.com/mobile/gocommon/fileutils     | fileutils     | 文件操作                       |
-| go get g.newcoretech.com/mobile/gocommon/pageutils     | pageutils     | 分页操作                       |
 | go get g.newcoretech.com/mobile/gocommon/safelist      | safelist      | 线程安全列表                   |
 | go get g.newcoretech.com/mobile/gocommon/safemap       | safemap       | 线程安全字典                   |
 | go get g.newcoretech.com/mobile/gocommon/securityutils | securityutils | 常用加/解密，md5等             |
