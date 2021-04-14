@@ -43,3 +43,7 @@ go env -w GOPRIVATE="g.newcoretech.com"
 ```
 
  完成以上配置后，执行`go get -u -v g.newcoretech.com/mobile/gocommon`  即可下载module代码
+
+在GOLand 中配置`GOPRIVATE` 变量：
+
+![企业微信20210413-102928](https://tva1.sinaimg.cn/large/008eGmZEgy1gphwt4avtuj30ra0k8tam.jpg)
