@@ -16,26 +16,29 @@ import (
 
 	rotatelogs "github.com/lestrrat-go/file-rotatelogs"
 	"github.com/rs/zerolog"
+	"github.com/youngchan1988/gocommon"
 )
 
 const tag = "Logger"
 
 var logger zerolog.Logger
 
-func Init(debug bool, logPath string) {
+func Init(debug bool, logPath string, logName string) {
 	//初始化log 本地文件存储设置
 	var logf *rotatelogs.RotateLogs
 	var err error
-	logFile := logPath + "/apptoy-go"
-	logf, err = rotatelogs.New(
-		logFile+".%Y%m%d%H%M.log",
-		rotatelogs.WithClock(rotatelogs.Local),
-		rotatelogs.WithMaxAge(30*24*time.Hour),
-		rotatelogs.WithLinkName(logFile),
-		rotatelogs.WithRotationTime(1*time.Minute),
-	)
-	if err != nil {
-		ErrorF(err, tag, "Initial RotateLogs failed: %v", err)
+	if !gocommon.IsEmpty(logPath) && !gocommon.IsEmpty(logName) {
+		logFile := logPath + "/" + logName
+		logf, err = rotatelogs.New(
+			logFile+".%Y%m%d%H%M.log",
+			rotatelogs.WithClock(rotatelogs.Local),
+			rotatelogs.WithMaxAge(30*24*time.Hour),
+			rotatelogs.WithLinkName(logFile),
+			rotatelogs.WithRotationTime(1*time.Minute),
+		)
+		if err != nil {
+			ErrorF(err, tag, "Initial RotateLogs failed: %v", err)
+		}
 	}
 
 	//初始化zerolog
