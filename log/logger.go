@@ -37,7 +37,7 @@ func Init(debug bool, logPath string, logName string) {
 			rotatelogs.WithRotationTime(1*time.Minute),
 		)
 		if err != nil {
-			ErrorF(tag, err, 1, "Initial RotateLogs failed: %v", err)
+			Errorf(tag, err, 1, "Initial RotateLogs failed: %v", err)
 		}
 	}
 
@@ -78,7 +78,7 @@ func Debug(tag string, msg string) {
 }
 
 //DebugF debug level print format
-func DebugF(tag string, format string, a ...interface{}) {
+func Debugf(tag string, format string, a ...interface{}) {
 	logger.Debug().Str("tag", tag).Msgf(format, a...)
 }
 
@@ -88,7 +88,7 @@ func Info(tag string, msg string) {
 }
 
 //InfoF info level print format
-func InfoF(tag string, format string, a ...interface{}) {
+func Infof(tag string, format string, a ...interface{}) {
 	logger.Info().Str("tag", tag).Msgf(format, a...)
 }
 
@@ -98,7 +98,7 @@ func Warn(tag string, msg string) {
 }
 
 //WarnF warn level print format
-func WarnF(tag string, format string, a ...interface{}) {
+func Warnf(tag string, format string, a ...interface{}) {
 	logger.Warn().Str("tag", tag).Msgf(format, a...)
 }
 
@@ -110,6 +110,6 @@ func Error(tag string, err error, caller int, msg string) {
 
 //ErrorF error level print format
 //caller should start from 1
-func ErrorF(tag string, err error, caller int, format string, a ...interface{}) {
+func Errorf(tag string, err error, caller int, format string, a ...interface{}) {
 	logger.Error().Err(err).Caller(caller).Str("tag", tag).Msgf(format, a...)
 }
