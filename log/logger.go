@@ -68,6 +68,16 @@ func Init(debug bool, logPath string, logName string) {
 				return fmt.Sprintf("caller=%s", i)
 			}
 			return ""
+		},
+		FormatErrFieldValue: func(i interface{}) string {
+			if i != nil {
+				s := i.(string)
+				ss := strings.Replace(s, "\"", "", -1)
+				ss = strings.Replace(ss, "\\r", "\r", -1)
+				ss = strings.Replace(ss, "\\n", "\n", -1)
+				return ss
+			}
+			return ""
 		}}).With().Timestamp().Logger()
 
 }
